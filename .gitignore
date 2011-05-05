@@ -7,3 +7,8 @@ tmp/logs/*
 tmp/sessions/*
 tmp/tests/*
 
+# Configuration files
+config/database.php
+
+# IDE files
+nbproject
