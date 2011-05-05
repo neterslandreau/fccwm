@@ -1,0 +1,9 @@
+# Temporary files
+tmp/cache/models/*
+tmp/cache/persistent/*
+tmp/cache/views/*
+tmp/cache/*
+tmp/logs/*
+tmp/sessions/*
+tmp/tests/*
+
