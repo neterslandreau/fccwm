@@ -13,6 +13,7 @@
 			'reset',
 			'text',
 			'960',
+			'fccwm'
 		));
 
 		echo $scripts_for_layout;
@@ -20,26 +21,23 @@
 </head>
 <body>
 	<div class="container_16">
-  <div class="grid_5">
-    <p>
-      logo goes here
-    </p>
-  </div>
-  <!-- end .grid_8 -->
-  <div class="grid_10">
-    <p>
-      other header stuff goes here
-    </p>
-  </div>
-  <div class="clear"></div>
-		<div class="container_16">
-
-			<?php echo $this->Session->flash(); ?>
-
-			<?php echo $content_for_layout; ?>
-
-		</div>
-  <div class="clear"></div>
+		<?php
+			echo $this->element('layout/header');
+		?>
+	<div class="clear"></div>
+		<?php
+			echo $this->element('layout/navigation');
+		?>
+	<div class="clear"></div>
+	<div class="grid_3">
+		Sidemenu
+	</div>
+	<div class="grid_13">
+		<?php echo $this->Session->flash(); ?>
+		<?php echo $content_for_layout; ?>
+	</div>
+	<div class="clear"></div>
+		<div class="grid_8">&nbsp;</div>
 		<div class="grid_8 push_8">
 			<?php
 				echo $this->Html->link(
