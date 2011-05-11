@@ -10,6 +10,7 @@
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css(array(
+//			'cake.generic',
 			'reset',
 			'text',
 			'960',
@@ -20,6 +21,7 @@
 	?>
 </head>
 <body>
+	<?php //debug($this->params); ?>
 	<div class="container_16">
 		<?php
 			echo $this->element('layout/header');
@@ -29,15 +31,34 @@
 			echo $this->element('layout/navigation');
 		?>
 	<div class="clear"></div>
-	<div class="grid_3">
-		Sidemenu
+	<?php if (($this->params['controller'] == 'pages') && ($this->params['pass'][0] != 'home')) : ?>
+	<div class="grid_2">
+		<?php
+			echo $this->element('layout/sidemenu');
+		?>
 	</div>
-	<div class="grid_13">
+	<div class="grid_14">
 		<?php echo $this->Session->flash(); ?>
 		<?php echo $content_for_layout; ?>
 	</div>
+	<?php elseif ($this->params['controller'] != 'pages') : ?>
+	<div class="grid_2">
+		<?php
+			echo $this->element('layout/sidemenu');
+		?>
+	</div>
+	<div class="grid_14">
+		<?php echo $this->Session->flash(); ?>
+		<?php echo $content_for_layout; ?>
+	</div>
+	<?php else: ?>
+	<div class="grid_16">
+		<?php echo $this->Session->flash(); ?>
+		<?php echo $content_for_layout; ?>
+	</div>
+	<?php endif; ?>
 	<div class="clear"></div>
-		<div class="grid_8">&nbsp;</div>
+<!--		<div class="grid_8">&nbsp;</div>-->
 		<div class="grid_8 push_8">
 			<?php
 				echo $this->Html->link(
