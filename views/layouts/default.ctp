@@ -21,6 +21,7 @@
 </head>
 <body>
 	<?php //debug($this->params); ?>
+	<div class="wrapper">
 	<div class="container_16">
 		<?php
 			echo $this->element('layout/header');
@@ -68,6 +69,7 @@
 			?>
 		</div>
 	</div>
+	</div>
 <?php
 	echo $this->Html->script('jquery.tools.min.js');
 	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js');
@@ -75,7 +77,20 @@
 	echo $scripts_for_layout;
 ?>
 <div id="donate-form" style="display:none;">
-	hello there!
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PH72T5MQF4HRQ">
+<input type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+	<?php
+//		echo $this->Form->create('Donation', array('action' => 'add'));
+//		echo $this->Form->input('firstname');
+//		echo $this->Form->input('lastname');
+//		echo $this->Form->input('address1');
+//		echo $this->Form->input('address2');
+//		echo $this->Form->end();
+	?>
 </div>
 </body>
 </html>

@@ -39,14 +39,19 @@
 //			echo $this->Html->link('About Us', '/staff');
 		?>
 	</div>-->
-	<div class="grid_4">
+	<div class="grid_2">
 		<?php
 			echo $this->Html->link('Home', '/');
 		?>
 	</div>
+	<div class="grid_2">
+		<?php
+			echo $this->Html->link('Adult Ed', '/education/adult');
+		?>
+	</div>
 	<div class="grid_4">
 		<?php
-			echo $this->Html->link('Education', '/education');
+			echo $this->Html->link('Youth Ed', '/education/youth');
 		?>
 	</div>
 	<div class="grid_4">
@@ -54,9 +59,14 @@
 			echo $this->Html->link('Ministries', '/ministries');
 		?>
 	</div>
-	<div class="grid_4">
+	<div class="grid_2">
 		<?php
-			echo $this->Html->link('News/Messages', '/aboutus');
+			echo $this->Html->link('News', '/news');
+		?>
+	</div>
+	<div class="grid_2">
+		<?php
+			echo $this->Html->link('Messages', '/messages');
 		?>
 	</div>
 </div>

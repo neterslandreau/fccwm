@@ -30,6 +30,6 @@
 		<?php echo $this->element('home/aboutus'); ?>
 	</div>
 	<div class="clear"></div>
-	<div class="container_16">
+	<div class="grid_16">
 		<?php echo $this->element('home/about_site'); ?>
 	</div>

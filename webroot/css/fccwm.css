@@ -1,6 +1,17 @@
 body {
 	font-size: 15px;
 }
+.wrapper {
+	background-color: #800439;
+}
+.container_12,
+.container_16 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fff;
+}
+
 #navigation {
 	text-align: center;
 /*	background: #CCFFF6;*/
