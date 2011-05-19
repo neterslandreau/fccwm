@@ -119,7 +119,7 @@ table td.actions a {
 	background: url(../img/close-cross.png) no-repeat;
 }
 .ui-dialog .ui-dialog-titlebar {
-	background: #FFFFFF;
+	background: #FFFFc8;
 	border-bottom: 1px dotted #C9C9C9;
 	color: #18BBBE;
 }
@@ -128,5 +128,13 @@ table td.actions a {
 }
 
 .ui-dialog .ui-dialog-content {
-	background: #F2f2f2;
+	background: #ffffc8;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	background: #FFFFc8;
+	text-align: left;
+	border-width: 0px 0 0 0;
+	background-image: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
