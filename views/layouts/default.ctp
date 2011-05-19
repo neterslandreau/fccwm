@@ -14,10 +14,9 @@
 			'reset',
 			'text',
 			'960',
+			'jquery-ui',
 			'fccwm'
 		));
-
-		echo $scripts_for_layout;
 	?>
 </head>
 <body>
@@ -58,16 +57,25 @@
 	</div>
 	<?php endif; ?>
 	<div class="clear"></div>
-<!--		<div class="grid_8">&nbsp;</div>-->
-		<div class="grid_8 push_8">
+<!--		<div class="grid_8">-->
+		<div class="grid_8 push_12">
 			<?php
 				echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt'=> __('CakePHP: the rapid development php framework', true), 'border' => '0')),
+					$this->Html->image('cake.power.gif', array('alt'=> __('CakePHP: the rapid development php framework', true), 'border' => '1')),
 					'http://www.cakephp.org/',
 					array('target' => '_blank', 'escape' => false)
 				);
 			?>
 		</div>
 	</div>
+<?php
+	echo $this->Html->script('jquery.tools.min.js');
+	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js');
+	echo $this->Html->script('views/layouts/default.js');
+	echo $scripts_for_layout;
+?>
+<div id="donate-form" style="display:none;">
+	hello there!
+</div>
 </body>
 </html>
