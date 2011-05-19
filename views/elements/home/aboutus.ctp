@@ -1,4 +1,4 @@
-<h1>About Us</h1>
+<h1 class="centered">About Us</h1>
 <p>
 We have many opportunities allowing each individual to realize their God
 given potential. We have adult bible studies on Sunday mornings and various
@@ -10,6 +10,6 @@ youth zone). And from ninth grade through Junior College we have our young
 peoples group <?php echo $html->link('RETRO','/retro');?> 
 ( an acronym for Radically empowered teens reclaiming our world).
 </p>
-<p>
+<!--<p>
 There are in addition to these groups other need sensitive groups that minister to as well as strengthen our resolve and help us fully understand and realize God's plan for us, which includes being a light in a dark and dying world. A witness to God's love for us revealed in His Son, God the Son, Jesus Christ.
-</p>
+</p>-->

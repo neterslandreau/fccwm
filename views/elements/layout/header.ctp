@@ -16,5 +16,5 @@
 		</h1>-->
 	</div>
 	<div class="grid_2">
-		Donate
+		<?php echo $this->Html->link('Donate', '#', array('onclick' => 'return false;')); ?>
 	</div>
