@@ -54,11 +54,6 @@
 			echo $this->Html->link('Youth Ed', '/education/youth');
 		?>
 	</div>
-	<div class="grid_4">
-		<?php
-			echo $this->Html->link('Ministries', '/ministries');
-		?>
-	</div>
 	<div class="grid_2">
 		<?php
 			echo $this->Html->link('News', '/news');
@@ -67,6 +62,11 @@
 	<div class="grid_2">
 		<?php
 			echo $this->Html->link('Messages', '/messages');
+		?>
+	</div>
+	<div class="grid_4">
+		<?php
+			echo $this->Html->link('Ministries', '/ministries');
 		?>
 	</div>
 </div>
