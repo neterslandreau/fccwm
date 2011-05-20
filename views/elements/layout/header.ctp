@@ -28,12 +28,17 @@
 			<img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>-->
 		<?php 
-			echo $this->Html->link('Donate',
-				'#',
-				array(
-					'onclick' => 'return false;',
-					'id' => 'donate'
-				)
-			); 
+			echo $this->Html->link(
+				$this->Html->image('cross1.png', array('width' => 100)),
+				'/',
+				array('escape' => false)
+			);
+//			echo $this->Html->link('Donate',
+//				'#',
+//				array(
+//					'onclick' => 'return false;',
+//					'id' => 'donate'
+//				)
+//			); 
 		?>
 	</div>
