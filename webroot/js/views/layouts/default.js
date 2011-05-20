@@ -12,4 +12,12 @@ $(document).ready(function() {
 			}
 		});
 	});
+	$('#mycarousel').jcarousel({
+		scroll: 1,
+		visible: 2,
+		auto: 1,
+		size: 10,
+		wrap: 'circular',
+		animation: 2000
+	});
 });

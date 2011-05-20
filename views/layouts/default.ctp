@@ -15,8 +15,14 @@
 			'text',
 			'960',
 			'jquery-ui',
+			'carousel/fccwm/skin',
 			'fccwm'
 		));
+		echo $this->Html->script('http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js');
+		echo $this->Html->script('jquery.jcarousel.min.js');
+		echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js');
+		echo $this->Html->script('views/layouts/default.js');
+		echo $scripts_for_layout;
 	?>
 </head>
 <body>
@@ -71,10 +77,12 @@
 	</div>
 	</div>
 <?php
-	echo $this->Html->script('jquery.tools.min.js');
-	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js');
-	echo $this->Html->script('views/layouts/default.js');
-	echo $scripts_for_layout;
+//	echo $this->Html->script('jquery.tools.min.js');
+//	echo $this->Html->script('http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js');
+//	echo $this->Html->script('jquery.jcarousel.min.js');
+//	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js');
+//	echo $this->Html->script('views/layouts/default.js');
+//	echo $scripts_for_layout;
 ?>
 <div id="donate-form" style="display:none;">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
