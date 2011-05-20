@@ -1,0 +1,151 @@
+body {
+	font-size: 15px;
+}
+.wrapper {
+	background-color: #800439;
+}
+.container_12,
+.container_16 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fff;
+}
+
+#navigation {
+	text-align: center;
+/*	background: #CCFFF6;*/
+	padding: 20px 0px 40px 0px;
+	vertical-align: baseline;
+	font-size: 150%;
+}
+#google_map {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 30px 0px;
+}
+h1 {
+	font-size: 21px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.centered {
+	text-align: center;
+}
+p {
+	padding: 0px 0px 0px 0px;
+}
+/*#service-times {
+	float: left;
+	margin: 0px -110px 0px 0px;
+	padding: 0px 0px 0px 110px;
+}*/
+/** Tables **/
+table {
+	background: #fff;
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	border:0px 0px 0px 0px;
+	border-bottom:2px solid #555;
+	border-top:2px solid #555;
+	text-align: left;
+	padding:4px;
+	background: #DCDCDC;
+}
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a.asc:after {
+	content: ' ⇣';
+}
+th a.desc:after {
+	content: ' ⇡';
+}
+table tr td {
+	background: #fff;
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom:1px solid #ddd;
+}
+table tr:nth-child(2n) td {
+	background: #f5f5f5;
+}
+table .altrow td {
+	background: #f5f5f5;
+}
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+table td.actions a {
+	margin: 0px 6px;
+	padding:2px 5px;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	padding: 0px 5px 5px 0px;
+	background: url(../img/close-cross.png) no-repeat;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background: #FFFFc8;
+	border-bottom: 1px dotted #C9C9C9;
+	color: #18BBBE;
+}
+.ui-dialog .ui-dialog-title {
+	font-size: 23px;
+}
+
+.ui-dialog .ui-dialog-content {
+	background: #ffffc8;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	background: #FFFFc8;
+	text-align: left;
+	border-width: 0px 0 0 0;
+	background-image: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
