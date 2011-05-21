@@ -44,10 +44,10 @@
 //						array('target' => '_blank', 'escape' => false)
 //					);
 				?>
+<!--	<div class="clear"></div>-->
 	</div>
-	<div class="clear"></div>
 		<div class="grid_8 push_4">
-			&copy;2006 - <?php echo date('Y'); ?> First Christian Church of Wilton Manors
+			&copy;2002 - <?php echo date('Y'); ?> First Christian Church of Wilton Manors
 		</div>
 <!--	</div>-->
 </div>
