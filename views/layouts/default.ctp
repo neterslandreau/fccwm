@@ -27,7 +27,7 @@
 </head>
 <body>
 	<?php //debug($this->params); ?>
-	<div class="wrapper">
+<!--	<div class="wrapper">-->
 	<div class="container_16">
 		<?php
 			echo $this->element('layout/header');
@@ -64,18 +64,9 @@
 	</div>
 	<?php endif; ?>
 	<div class="clear"></div>
-<!--		<div class="grid_8">-->
-		<div class="grid_8 push_12">
-			<?php
-				echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt'=> __('CakePHP: the rapid development php framework', true), 'border' => '1')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
-		</div>
+	<?php echo $this->element('layout/footer'); ?>
 	</div>
-	</div>
+<!--	</div>-->
 <?php
 //	echo $this->Html->script('jquery.tools.min.js');
 //	echo $this->Html->script('http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js');

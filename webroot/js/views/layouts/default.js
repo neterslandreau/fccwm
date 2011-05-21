@@ -18,7 +18,7 @@ $(document).ready(function() {
 		auto: 1,
 		size: 10,
 		wrap: 'circular',
-		animation: 2000,
+		animation: 5000,
 		initCallback: mycarousel_initCallback
 	});
 });
