@@ -39,12 +39,15 @@ a:hover {
 .footer h1 {
 	color: #c0c0c0;
 }
+.centered {
+	text-align: center;
+}
 #navigation {
 	text-align: center;
 	padding: 20px 0px 40px 0px;
 	vertical-align: baseline;
 	font-size: 150%;
-	margin: 0px 0px 0px 0px;
+	margin: 5px 0px 20px 0px;
 }
 #navigation h1 a {
 	background: url('../img/fccwm-logo-sml.png') no-repeat left;

@@ -10,7 +10,7 @@
 	</div>
 	<div class="grid_2">
 		<?php
-			echo $this->Html->link('Education', '/education', array(
+			echo $this->Html->link('Education', '/educations', array(
 				'title' => 'First Christian Church of Wilton Manors Educational Programs',
 				'alt' => 'First Christian Church of Wilton Manors Educational Programs',
 			));
