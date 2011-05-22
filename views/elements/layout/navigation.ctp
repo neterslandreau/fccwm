@@ -10,17 +10,17 @@
 	</div>
 	<div class="grid_2">
 		<?php
-			echo $this->Html->link('Education', '/educations', array(
-				'title' => 'First Christian Church of Wilton Manors Educational Programs',
-				'alt' => 'First Christian Church of Wilton Manors Educational Programs',
+			echo $this->Html->link('News', '/news', array(
+				'title' => 'First Christian Church of Wilton Manors News and Events',
+				'alt' => 'First Christian Church of Wilton Manors News and Events',
 			));
 		?>
 	</div>
 	<div class="grid_2">
 		<?php
-			echo $this->Html->link('News', '/news', array(
-				'title' => 'First Christian Church of Wilton Manors News and Events',
-				'alt' => 'First Christian Church of Wilton Manors News and Events',
+			echo $this->Html->link('Education', '/educations', array(
+				'title' => 'First Christian Church of Wilton Manors Educational Programs',
+				'alt' => 'First Christian Church of Wilton Manors Educational Programs',
 			));
 		?>
 	</div>

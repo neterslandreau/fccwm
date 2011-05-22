@@ -183,8 +183,11 @@ table td.actions a {
 	background: url(../img/close-cross.png) no-repeat;
 }
 .ui-dialog .ui-dialog-titlebar {
-	background: #FFFFc8;
+	background: #fff;
 	border-bottom: 1px dotted #C9C9C9;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
 	color: #18BBBE;
 }
 .ui-dialog .ui-dialog-title {
@@ -192,10 +195,10 @@ table td.actions a {
 }
 
 .ui-dialog .ui-dialog-content {
-	background: #ffffc8;
+	background: #E00764;
 }
 .ui-dialog .ui-dialog-buttonpane {
-	background: #FFFFc8;
+	background: #E00764;
 	text-align: left;
 	border-width: 0px 0 0 0;
 	background-image: none;

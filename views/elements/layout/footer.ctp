@@ -44,15 +44,6 @@
 				));
 			?>
 		</div>
-<!--		<div class="grid_8 push_14">-->
-				<?php
-//					echo $this->Html->link(
-//						$this->Html->image('cake.power.gif', array('alt'=> __('CakePHP: the rapid development php framework', true), 'border' => '1')),
-//						'http://www.cakephp.org/',
-//						array('target' => '_blank', 'escape' => false)
-//					);
-				?>
-<!--	<div class="clear"></div>-->
 	</div>
 		<div class="grid_8 push_4">
 			&copy;2002 - <?php echo date('Y'); ?> First Christian Church of Wilton Manors
