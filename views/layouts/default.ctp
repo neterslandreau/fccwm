@@ -27,7 +27,7 @@
 </head>
 <body>
 	<?php //debug($this->params); ?>
-<!--	<div class="wrapper">-->
+	<div class="wrapper">
 	<div class="container_16">
 		<?php
 			echo $this->element('layout/header');
@@ -65,8 +65,9 @@
 	<?php endif; ?>
 	<div class="clear"></div>
 	<?php echo $this->element('layout/footer'); ?>
+	<div class="clear"></div>
 	</div>
-<!--	</div>-->
+	</div>
 <?php
 //	echo $this->Html->script('jquery.tools.min.js');
 //	echo $this->Html->script('http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js');

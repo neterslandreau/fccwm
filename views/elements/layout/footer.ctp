@@ -1,6 +1,7 @@
 <!--<div class="container_16">-->
 <div class="footer"> 
-	<div class="grid_16">
+	<div class="container_16">
+		<div class="grid_16">
 		<div class="grid_3">
 			<h1>A footer</h1>
 			<a href="#">link a1</a>
@@ -50,6 +51,7 @@
 			&copy;2002 - <?php echo date('Y'); ?> First Christian Church of Wilton Manors
 		</div>
 <!--	</div>-->
+	</div>
 </div>
 <!--</div>-->
 <!--</div>-->
