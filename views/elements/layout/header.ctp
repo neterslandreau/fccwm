@@ -1,3 +1,4 @@
+<div id="header">
 	<div class="grid_2">
 		<?php
 			echo $this->Html->link(
@@ -42,3 +43,4 @@
 //			); 
 		?>
 	</div>
+</div>

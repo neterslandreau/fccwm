@@ -27,6 +27,11 @@
 </head>
 <body>
 	<?php //debug($this->params); ?>
+<!--
+	<div class="background">
+		<img src="/img/congr1.jpg" />
+	</div>
+-->
 	<div class="wrapper">
 	<div class="container_16">
 		<?php
@@ -54,13 +59,17 @@
 		?>
 	</div>
 	<div class="grid_14">
+		<div id="content">
 		<?php echo $this->Session->flash(); ?>
 		<?php echo $content_for_layout; ?>
+		</div>
 	</div>
 	<?php else: ?>
 	<div class="grid_16">
+		<div id="content">
 		<?php echo $this->Session->flash(); ?>
 		<?php echo $content_for_layout; ?>
+		</div>
 	</div>
 	<?php endif; ?>
 	<div class="clear"></div>

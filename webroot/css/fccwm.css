@@ -5,7 +5,19 @@ body {
 .wrapper {
 	background-color: #800439;
 	min-height: 100%;
-	padding: 0px 0px 50px 0px;
+	padding: 20px 0px 50px 0px;
+}
+.background {
+	position: fixed!important;
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	min-width: 1280px;
+	width: 100%;
+}
+#content, #navigation, #footer, #google_map {
+	background-color: #fff;
 }
 .container_12,
 .container_16 {
@@ -19,7 +31,7 @@ body {
 .container_12 .grid_12,
 .container_16 .grid_16 {
   width: 940px;
-  background-color: #fff;
+/*  background-color: #fff;*/
 }
 a {
 	text-decoration: none;
@@ -27,17 +39,17 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-.footer {
-	background-color: #fff;
+#footer {
+/*	background-color: #fff;*/
 	text-align: center;
 	color: #3f3f3f;
-	border-top: 1px solid #000;
+/*	border-top: 1px solid #000;*/
 }
-.footer a {
+#footer a {
 	display: block;
 	color: #303030;
 }
-.footer h1 {
+#footer h1 {
 	color: #c0c0c0;
 }
 .centered {
@@ -45,10 +57,10 @@ a:hover {
 }
 #navigation {
 	text-align: center;
-	padding: 20px 0px 40px 0px;
+	padding: 20px 0px 60px 0px;
 	vertical-align: baseline;
 	font-size: 150%;
-	margin: 5px 0px 20px 0px;
+	margin: 0px 0px 0px 0px;
 }
 #navigation h1 a {
 	background: url('../img/fccwm-logo-sml.png') no-repeat left;
