@@ -1,1 +1,1 @@
-<h1 class="centered">First Christian Church of Wilton Manors Beliefs</h1>
+<h1 class="centered">About First Christian Church of Wilton Manors</h1>
