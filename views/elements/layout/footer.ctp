@@ -36,11 +36,11 @@
 			<a href="#">link e2</a>
 			<a href="#">link e3</a>
 			<a href="#">link e4</a>
-			<h1>Donate</h1>
 			<?php 
-				echo $this->Html->link('Online Donations', '#', array(
+				echo $this->Html->link('<h1>' . 'Donate' . '</h1>', '#', array(
 					'id' => 'donate',
 					'onclick' => 'return false;',
+					'escape' => false,
 				));
 			?>
 		</div>
