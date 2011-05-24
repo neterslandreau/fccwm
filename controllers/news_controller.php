@@ -10,5 +10,9 @@ class NewsController extends AppController {
 		
 	}
 
+	public function google_calendar() {
+
+	}
+
 }
 ?>
