@@ -24,6 +24,7 @@
 		echo $this->Html->script('views/layouts/default.js');
 		echo $scripts_for_layout;
 	?>
+	<meta name="google-site-verification" content="F-VJZzngvH7HeD3P9ZwcQFktipGLJDMqHvVixQ0rspc" />
 </head>
 <body>
 	<?php //debug($this->params); ?>
