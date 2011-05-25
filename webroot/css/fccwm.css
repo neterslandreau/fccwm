@@ -52,6 +52,9 @@ a:hover {
 #footer h1 {
 	color: #c0c0c0;
 }
+#footer h1 a {
+	color: #c0c0c0;
+}
 .centered {
 	text-align: center;
 }
@@ -206,5 +209,5 @@ table td.actions a {
 	padding: 0px 0px 0px 0px;
 }
 .home_image {
-	padding: 0px 0px 10px 0px;
+	padding: 0px 0px 20px 0px;
 }

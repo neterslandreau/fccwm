@@ -1,7 +1,7 @@
 	<?php echo $this->element('layout/carousel'); ?>
 	<div class="clear"></div>
 	<div class="home_image">
-		<?php echo $this->Html->image('congr2.png', array('width' => 940)); ?>
+		<?php echo $this->Html->image('congr2.png', array('alt' => 'First Christion Church of Wilton Manors', 'title' => 'Our Family')); ?>
 	</div>
 	<div class="clear"></div>
 	<div class="grid_8 alpha">
