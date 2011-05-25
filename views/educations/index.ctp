@@ -1,1 +1,7 @@
 <h1 class="centered">First Christian Church of Wilton Manors Education Department</h1>
+<p>
+The whole idea behind Christian Ed. is to strengthen us in our faith and empower believers to reach out to the world with the reality of God's love. We can do this through many various ministries including our care ministry which includes hospital visits, phone calls, sending cards of encouragement etc.. other areas are our nurturing ministry, feed the needy, transportation, worship service preparation, Mens and womens fellowships, single parent support, various need sensitive bible studies, mission outreach committee (which supports worlwide missionaries) And many other vehicles through which we can reach out into our community and ultimately the world. We encourage singles through S.T.I.C., (Singles together In Christ) in fellowship and planned events and We also support and practice "Evangelism Explosion" which is a successful and effective witnessing tool .
+</p>
+<p>
+We are an ever growing open minded body of believers who share the common goal of sharing God's love as revealed in Jesus. That God's tremendous plan for us and blessings He intends for us are available through the provision He has made in Jesus. And we are blessed with ever growing resources that enable us to effectively reach those around us and those around the world with God's Gospel of peace.
+</p>
