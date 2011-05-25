@@ -5,10 +5,12 @@
 			<h1>
 				<?php echo $this->Html->link('Education', array('controller' => 'educations')); ?>
 			</h1>
-			<a href="#">link a1</a>
-			<a href="#">link a2</a>
-			<a href="#">link a3</a>
-			<a href="#">link a4</a>
+			<?php
+				echo $this->Html->link('Pre-School', array('action' => 'pre_school'));
+				echo $this->Html->link('Pre-Teen', array('action' => 'pre_teen'));
+				echo $this->Html->link('Youth Studies', array('action' => 'youth'));
+				echo $this->Html->link('Adult Studies', array('action' => 'adult'));
+			?>
 		</div>
 		<div class="grid_3">
 			<h1>

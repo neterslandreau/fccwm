@@ -55,9 +55,6 @@ a:hover {
 #footer h1 a {
 	color: #c0c0c0;
 }
-.centered {
-	text-align: center;
-}
 #navigation {
 	text-align: center;
 	padding: 20px 0px 60px 0px;
@@ -210,4 +207,14 @@ table td.actions a {
 }
 .home_image {
 	padding: 0px 0px 20px 0px;
+}
+.proverb span {
+	font-weight: bold;
+	font-style: italic;
+	display: block;
+	padding: 0px 100px 0px 0px;
+	text-align: right;
+}
+.proverb {
+	font-style: italic;
 }

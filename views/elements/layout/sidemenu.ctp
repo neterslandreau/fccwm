@@ -1,10 +1,10 @@
 <div id="sidemenu">
 <?php
 	if ($this->params['controller'] == 'educations') {
-		echo '<div>' . $this->Html->link($this->params['controller'] . '_' . 'one', '#') . '</div>';
-		echo '<div>' . $this->Html->link($this->params['controller'] . '_' . 'two', '#') . '</div>';
-		echo '<div>' . $this->Html->link($this->params['controller'] . '_' . 'three', '#') . '</div>';
-		echo '<div>' . $this->Html->link($this->params['controller'] . '_' . 'four', '#') . '</div>';
+		echo '<div>' . $this->Html->link('Pre-School', array('action' => 'pre_school')) . '</div>';
+		echo '<div>' . $this->Html->link('Pre-Teen', array('action' => 'pre_teen')) . '</div>';
+		echo '<div>' . $this->Html->link('Youth Studies', array('action' => 'youth')) . '</div>';
+		echo '<div>' . $this->Html->link('Adult Studies', array('action' => 'adult')) . '</div>';
 	} elseif ($this->params['controller'] == 'news') {
 		echo $this->Html->link('Calendar', array('action' => 'google_calendar'));
 	} elseif ($this->params['plugin'] == 'full_calendar') {
