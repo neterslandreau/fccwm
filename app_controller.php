@@ -1,7 +1,14 @@
 <?php
 class AppController extends Controller {
     public $components = array('Session', 'Auth', 'Cookie', 'Email');
-	public $helpers = array('Session', 'Html','Javascript','Form','Xml');
+	public $helpers = array(
+		'Session',
+		'Html',
+		'Javascript',
+		'Form',
+		'Xml',
+		'Text'
+	);
 	public $publicControllers = array('pages');
 
 /**

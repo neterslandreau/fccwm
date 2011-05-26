@@ -82,6 +82,11 @@ h1 {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
+h2 {
+	font-size: 18px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px;
+}
 .centered {
 	text-align: center;
 }
@@ -212,9 +217,12 @@ table td.actions a {
 	font-weight: bold;
 	font-style: italic;
 	display: block;
-	padding: 0px 100px 0px 0px;
+	padding: 0px 20px 0px 0px;
 	text-align: right;
+	margin: 0px 0px 0px 0px;
 }
 .proverb {
 	font-style: italic;
+	background-color: #f0f09a;
+	display: block;
 }
