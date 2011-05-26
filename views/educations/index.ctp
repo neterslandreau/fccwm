@@ -26,8 +26,8 @@
 					)
 				);
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
-			echo $this->Text->truncate($pre_school, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($pre_school, 300, array(
+				'exact' => true,
 				'ending' => '...[' . $link . ']',
 			));
 		?>
@@ -54,8 +54,8 @@
 						'id' => 'pre-teen-content',
 					)
 				);
-			echo $this->Text->truncate($pre_teen, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($pre_teen, 300, array(
+				'exact' => true,
 				'ending' => '...[' . $link . ']',
 			));
 		?>
@@ -82,8 +82,8 @@
 						'id' => 'youth-content',
 					)
 				);
-			echo $this->Text->truncate($youth, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($youth, 300, array(
+				'exact' => true,
 				'ending' => '...[' . $link . ']',
 			));
 		?>
@@ -110,8 +110,8 @@
 						'id' => 'adult-content',
 					)
 				);
-			echo $this->Text->truncate($adult, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($adult, 300, array(
+				'exact' => true,
 				'ending' => '...[' . $link . ']',
 			));
 		?>

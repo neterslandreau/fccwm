@@ -27,8 +27,8 @@
 						'id' => 'beliefs-content',
 					)
 				);
-			echo $this->Text->truncate($pre_school, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($pre_school, 300, array(
+				'exact' => true,
 				'ending' => ' ... [' . $link . ']',
 			));
 		?>
@@ -55,8 +55,8 @@
 						'id' => 'pastor-content',
 					)
 				);
-			echo $this->Text->truncate($pre_teen, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($pre_teen, 300, array(
+				'exact' => true,
 				'ending' => ' ... [' . $link . ']',
 			));
 		?>
@@ -83,8 +83,8 @@
 						'id' => 'staff-content',
 					)
 				);
-			echo $this->Text->truncate($youth, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($youth, 300, array(
+				'exact' => true,
 				'ending' => ' ... [' . $link . ']',
 			));
 		?>
@@ -111,8 +111,8 @@
 						'id' => 'contact-content',
 					)
 				);
-			echo $this->Text->truncate($adult, 200, array(
-				'exact' => false,
+			echo $this->Text->truncate($adult, 300, array(
+				'exact' => true,
 				'ending' => ' ... [' . $link . ']',
 			));
 		?>
