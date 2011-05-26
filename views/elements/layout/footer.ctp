@@ -6,10 +6,34 @@
 				<?php echo $this->Html->link('Education', array('controller' => 'educations')); ?>
 			</h1>
 			<?php
-				echo $this->Html->link('Pre-School', array('action' => 'pre_school'));
-				echo $this->Html->link('Pre-Teen', array('action' => 'pre_teen'));
-				echo $this->Html->link('Youth Studies', array('action' => 'youth'));
-				echo $this->Html->link('Adult Studies', array('action' => 'adult'));
+				echo $this->Html->link('Pre-School',
+						array('controller' => 'educations', 'action' => 'pre_school'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'pre-school-footer'
+						)
+					);
+				echo $this->Html->link('Pre-Teen',
+						array('controller' => 'educations', 'action' => 'pre_teen'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'pre-teen-footer',
+						)
+					);
+				echo $this->Html->link('Youth Studies',
+						array('controller' => 'educations', 'action' => 'youth'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'youth-footer'
+						)
+					);
+				echo $this->Html->link('Adult Studies',
+						array('controller' => 'educations', 'action' => 'adult'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'adult-footer'
+						)
+					);
 			?>
 		</div>
 		<div class="grid_3">
@@ -43,10 +67,36 @@
 			<h1>
 				<?php echo $this->Html->link('About Us', array('controller' => 'abouts')); ?>
 			</h1>
-			<a href="#">link e1</a>
-			<a href="#">link e2</a>
-			<a href="#">link e3</a>
-			<a href="#">link e4</a>
+			<?php
+				echo $this->Html->link('Our Beliefs',
+						array('controller' => 'abouts', 'action' => 'beliefs'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'beliefs-footer'
+						)
+					);
+				echo $this->Html->link('Our Pastor',
+						array('controller' => 'abouts', 'action' => 'pastor'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'pastor-footer',
+						)
+					);
+				echo $this->Html->link('Our Staff',
+						array('controller' => 'abouts', 'action' => 'youth'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'staff-footer'
+						)
+					);
+				echo $this->Html->link('Contact Us',
+						array('controller' => 'abouts', 'action' => 'contact'),
+						array(
+							'onclick' => 'return false;',
+							'id' => 'contact-footer'
+						)
+					);
+			?>
 			<?php 
 				echo $this->Html->link('<h1>' . 'Donate' . '</h1>', '#', array(
 					'id' => 'donate',

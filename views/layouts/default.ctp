@@ -87,20 +87,24 @@
 //	echo $scripts_for_layout;
 ?>
 <div id="donate-form" style="display:none;">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="PH72T5MQF4HRQ">
-<input type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 	<?php
-//		echo $this->Form->create('Donation', array('action' => 'add'));
-//		echo $this->Form->input('firstname');
-//		echo $this->Form->input('lastname');
-//		echo $this->Form->input('address1');
-//		echo $this->Form->input('address2');
-//		echo $this->Form->end();
+		echo $this->Form->create('Donation', array('action' => 'add'));
+		echo $this->Form->input('firstname');
+		echo $this->Form->input('lastname');
+		echo $this->Form->input('address1');
+		echo $this->Form->input('address2');
+		echo $this->Form->end();
 	?>
 </div>
+<?php
+	echo $this->element('dialogs/educations/pre_school_info');
+	echo $this->element('dialogs/educations/pre_teen_info');
+	echo $this->element('dialogs/educations/youth_info');
+	echo $this->element('dialogs/educations/adult_info');
+	echo $this->element('dialogs/abouts/beliefs_info');
+	echo $this->element('dialogs/abouts/pastor_info');
+	echo $this->element('dialogs/abouts/staff_info');
+	echo $this->element('dialogs/abouts/contact_info');
+?>
 </body>
 </html>
