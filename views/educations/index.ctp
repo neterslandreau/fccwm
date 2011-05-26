@@ -5,11 +5,10 @@
 	$adult = 'Quisque a elit eget sem rhoncus condimentum sit amet vel est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec non ultricies odio. Donec sed nulla nibh. Quisque ultricies consequat lectus, in lacinia quam imperdiet vel. Quisque sollicitudin justo eu orci accumsan dapibus cursus vulputate ligula. Nullam odio mauris, suscipit et sollicitudin vitae, tristique in purus. Suspendisse tincidunt cursus sem, at tristique erat commodo in. Vestibulum eu sem nec augue vestibulum laoreet nec ac ante. Pellentesque pulvinar sagittis vestibulum. In hac habitasse platea dictumst. Praesent eleifend sapien ut lorem viverra facilisis ultrices neque consequat. Donec commodo tincidunt tincidunt. Curabitur nunc lorem, luctus sit amet lacinia in, lacinia id diam. Nunc blandit magna eget ligula suscipit suscipit. Praesent mattis, diam sit amet dapibus rhoncus, nulla tellus tincidunt tellus, non sodales magna est id justo. Integer turpis nulla, consequat nec ullamcorper vitae, vehicula eget libero.';
 ?>
 <h1 class="centered">First Christian Church of Wilton Manors Education Department</h1>
-<div class="grid_3">
+<div class="grid_3 push_1">
 	<h2 class="centered">Pre-School</h2>
 	<p>
 		<?php
-			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
 			$link = $this->Html->link('more', 
 					array('controller' => 'educations', 'action' => 'pre_school'),
 					array(
@@ -17,14 +16,15 @@
 						'id' => 'pre-school-content',
 					)
 				);
+			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
 			echo $this->Text->truncate($pre_school, 200, array(
 				'exact' => false,
-				'ending' => ' ... [' . $link . ']',
+				'ending' => '...[' . $link . ']',
 			));
 		?>
 	</p>
 </div>
-<div class="grid_3">
+<div class="grid_3 push_1">
 	<h2 class="centered">Pre-Teen</h2>
 	<p>
 		<?php
@@ -38,12 +38,12 @@
 				);
 			echo $this->Text->truncate($pre_teen, 200, array(
 				'exact' => false,
-				'ending' => ' ... [' . $link . ']',
+				'ending' => '...[' . $link . ']',
 			));
 		?>
 	</p>
 </div>
-<div class="grid_3">
+<div class="grid_3 push_1">
 	<h2 class="centered">Youth Studies</h2>
 	<p>
 		<?php
@@ -57,12 +57,12 @@
 				);
 			echo $this->Text->truncate($youth, 200, array(
 				'exact' => false,
-				'ending' => ' ... [' . $link . ']',
+				'ending' => '...[' . $link . ']',
 			));
 		?>
 	</p>
 </div>
-<div class="grid_3">
+<div class="grid_3 push_1">
 	<h2 class="centered">Adult Studies</h2>
 	<p>
 		<?php
@@ -76,7 +76,7 @@
 				);
 			echo $this->Text->truncate($adult, 200, array(
 				'exact' => false,
-				'ending' => ' ... [' . $link . ']',
+				'ending' => '...[' . $link . ']',
 			));
 		?>
 	</p>
