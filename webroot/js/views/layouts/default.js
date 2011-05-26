@@ -60,6 +60,19 @@ $(document).ready(function() {
 			}
 		});
 	});
+	$('#pre-school-header').bind('click', function(e) {
+		$('#pre-school-info').dialog({
+			width: 650,
+			title: 'Pre-School',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
 	$('#pre-teen-footer').bind('click', function(e) {
 		$('#pre-teen-info').dialog({
 			width: 650,
@@ -87,6 +100,19 @@ $(document).ready(function() {
 		});
 	});
 	$('#pre-teen-content').bind('click', function(e) {
+		$('#pre-teen-info').dialog({
+			width: 650,
+			title: 'Pre-Teen',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
+	$('#pre-teen-header').bind('click', function(e) {
 		$('#pre-teen-info').dialog({
 			width: 650,
 			title: 'Pre-Teen',
@@ -138,6 +164,19 @@ $(document).ready(function() {
 			}
 		});
 	});
+	$('#youth-header').bind('click', function(e) {
+		$('#youth-info').dialog({
+			width: 650,
+			title: 'Youth Studies',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
 	$('#adult-footer').bind('click', function(e) {
 		$('#adult-info').dialog({
 			width: 650,
@@ -165,6 +204,19 @@ $(document).ready(function() {
 		});
 	});
 	$('#adult-sidebar').bind('click', function(e) {
+		$('#adult-info').dialog({
+			width: 650,
+			title: 'Adult Studies',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
+	$('#adult-header').bind('click', function(e) {
 		$('#adult-info').dialog({
 			width: 650,
 			title: 'Adult Studies',
@@ -216,6 +268,19 @@ $(document).ready(function() {
 			}
 		});
 	});
+	$('#beliefs-header').bind('click', function(e) {
+		$('#beliefs-info').dialog({
+			width: 650,
+			title: 'Our Beliefs',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
 	$('#pastor-footer').bind('click', function(e) {
 		$('#pastor-info').dialog({
 			width: 650,
@@ -243,6 +308,19 @@ $(document).ready(function() {
 		});
 	});
 	$('#pastor-content').bind('click', function(e) {
+		$('#pastor-info').dialog({
+			width: 650,
+			title: 'Our Pastor',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
+	$('#pastor-header').bind('click', function(e) {
 		$('#pastor-info').dialog({
 			width: 650,
 			title: 'Our Pastor',
@@ -294,6 +372,19 @@ $(document).ready(function() {
 			}
 		});
 	});
+	$('#staff-header').bind('click', function(e) {
+		$('#staff-info').dialog({
+			width: 650,
+			title: 'Our staff',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
 	$('#contact-footer').bind('click', function(e) {
 		$('#contact-info').dialog({
 			width: 650,
@@ -321,6 +412,19 @@ $(document).ready(function() {
 		});
 	});
 	$('#contact-content').bind('click', function(e) {
+		$('#contact-info').dialog({
+			width: 650,
+			title: 'Contact Us',
+			modal: true,
+			show: 'blind',
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
+	$('#contact-header').bind('click', function(e) {
 		$('#contact-info').dialog({
 			width: 650,
 			title: 'Contact Us',

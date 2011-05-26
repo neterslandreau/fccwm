@@ -7,7 +7,16 @@
 ?>
 <h1 class="centered">About First Christian Church of Wilton Manors</h1>
 <div class="grid_3 push_1">
-	<h2 class="centered">Our Beliefs</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Our Beliefs</h2>',
+			array('controller' => 'abouts', 'action' => 'beliefs'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'beliefs-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
@@ -26,7 +35,16 @@
 	</p>
 </div>
 <div class="grid_3 push_1">
-	<h2 class="centered">Our Pastor</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Our Pastor</h2>',
+			array('controller' => 'abouts', 'action' => 'pastor'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'pastor-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
@@ -45,7 +63,16 @@
 	</p>
 </div>
 <div class="grid_3 push_1">
-	<h2 class="centered">Our Staff</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Our Staff</h2>',
+			array('controller' => 'abouts', 'action' => 'staff'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'staff-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
@@ -64,7 +91,16 @@
 	</p>
 </div>
 <div class="grid_3 push_1">
-	<h2 class="centered">Contact Us</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Contact Us</h2>',
+			array('controller' => 'abouts', 'action' => 'contact'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'contact-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));

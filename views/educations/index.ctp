@@ -6,7 +6,16 @@
 ?>
 <h1 class="centered">First Christian Church of Wilton Manors Education Department</h1>
 <div class="grid_3 push_1">
-	<h2 class="centered">Pre-School</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Pre-School</h2>',
+			array('controller' => 'educations', 'action' => 'pre_school'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'pre-school-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			$link = $this->Html->link('more', 
@@ -25,7 +34,16 @@
 	</p>
 </div>
 <div class="grid_3 push_1">
-	<h2 class="centered">Pre-Teen</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Pre-Teen</h2>',
+			array('controller' => 'educations', 'action' => 'pre_teen'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'pre-teen-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
@@ -44,7 +62,16 @@
 	</p>
 </div>
 <div class="grid_3 push_1">
-	<h2 class="centered">Youth Studies</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Youth Studies</h2>',
+			array('controller' => 'educations', 'action' => 'youth'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'youth-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
@@ -63,7 +90,16 @@
 	</p>
 </div>
 <div class="grid_3 push_1">
-	<h2 class="centered">Adult Studies</h2>
+	<?php
+		echo $this->Html->link('<h2 class="centered">Adult Studies</h2>',
+			array('controller' => 'educations', 'action' => 'adult'),
+			array(
+				'escape' => false,
+				'onclick' => 'return false;',
+				'id' => 'adult-header'
+			)
+		);
+	?>
 	<p>
 		<?php
 			echo $this->Html->image('spacer2.gif', array('width' => 160, 'height' => 100));
