@@ -62,6 +62,9 @@ a:hover {
 	font-size: 150%;
 	margin: 0px 0px 0px 0px;
 }
+#navigation a {
+	color: #3f3f3f;
+}
 #navigation h1 a {
 	background: url('../img/fccwm-logo-sml.png') no-repeat left;
 	text-indent: -9999px;
