@@ -7,6 +7,6 @@
 			$content = 'Poverty and shame will come to him who disdains correction, but he who regards a rebuke will be honored. <span>Proverbs 13:18</span>';
 	}
 ?>
-<div class="grid_10 push_2 proverb centered">
+<div class="grid_11 push_4 proverb centered">
 	<?php echo $content; ?>
 </div>
