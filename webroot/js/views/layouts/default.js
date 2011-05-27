@@ -5,9 +5,12 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Donate',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Donate': function() {
+					$(':input', '#DonationAddForm').each(function(){
+						console.log(this.name + ': ' + this.value);
+					});
 					$(this).dialog("close");
 				}
 			}
@@ -28,7 +31,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-School',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -43,7 +46,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-School',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -57,7 +60,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-School',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -71,7 +74,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-School',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -86,7 +89,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-Teen',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -100,7 +103,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-Teen',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -114,7 +117,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-Teen',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -128,7 +131,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Pre-Teen',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -143,7 +146,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Youth Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -157,7 +160,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Youth Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -171,7 +174,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Youth Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -185,7 +188,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Youth Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -200,7 +203,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Adult Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -214,7 +217,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Adult Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -228,7 +231,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Adult Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -242,7 +245,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Adult Studies',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -257,7 +260,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Beliefs',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -271,7 +274,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Beliefs',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -285,7 +288,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Beliefs',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -299,7 +302,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Beliefs',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -314,7 +317,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Pastor',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -328,7 +331,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Pastor',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -342,7 +345,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Pastor',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -356,7 +359,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our Pastor',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -371,7 +374,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our staff',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -385,7 +388,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our staff',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -399,7 +402,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our staff',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -413,7 +416,7 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Our staff',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
 				'Close': function() {
 					$(this).dialog("close");
@@ -428,9 +431,9 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Contact Us',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
-				'Close': function() {
+				'Submit': function() {
 					$(this).dialog("close");
 				}
 			}
@@ -442,9 +445,9 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Contact Us',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
-				'Close': function() {
+				'Submit': function() {
 					$(this).dialog("close");
 				}
 			}
@@ -456,9 +459,9 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Contact Us',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
-				'Close': function() {
+				'Submit': function() {
 					$(this).dialog("close");
 				}
 			}
@@ -470,9 +473,9 @@ $(document).ready(function() {
 			height: 480,
 			title: 'Contact Us',
 			modal: true,
-			show: 'blind',
+			show: null,
 			buttons: {
-				'Close': function() {
+				'Submit': function() {
 					$(this).dialog("close");
 				}
 			}

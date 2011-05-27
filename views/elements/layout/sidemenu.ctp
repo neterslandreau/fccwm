@@ -55,7 +55,7 @@
 					'id' => 'beliefs-sidebar'
 				)
 			);
-		echo $this->Html->link(__('Staff', true),
+		echo $this->Html->link(__('Our Staff', true),
 				array('action' => 'staff'),
 				array(
 					'escape' => false,

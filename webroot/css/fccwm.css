@@ -74,6 +74,8 @@ a:hover {
 }
 #sidemenu a {
 	display: block;
+	font-size: 18px;
+	color: #3f3f3f;
 }
 #google_map {
 	float: left;
