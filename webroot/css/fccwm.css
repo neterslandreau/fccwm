@@ -246,13 +246,13 @@ table td.actions a {
 	font-weight: bold;
 	font-style: italic;
 	display: block;
-	padding: 0px 20px 0px 0px;
+	padding: 0px 20% 0px 0px;
 	text-align: right;
 	margin: 0px 0px 0px 0px;
 }
 .proverb {
 	font-style: italic;
-	background-color: #f0f09a;
+	background-color: #B2B2B2;
 	display: block;
 	padding: 0px 3px 0px 3px;
 	margin: 0px 0px 0px 5px;
