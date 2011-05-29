@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	$('#donate').bind('click', function(e) {
 		$('#donate-form').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Donate',
 			modal: true,
 			show: null,
@@ -27,8 +27,8 @@ $(document).ready(function() {
 	});
 	$('#pre-school-footer').bind('click', function(e) {
 		$('#pre-school-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-School',
 			modal: true,
 			show: null,
@@ -42,8 +42,8 @@ $(document).ready(function() {
 
 	$('#pre-school-sidebar').bind('click', function(e) {
 		$('#pre-school-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-School',
 			modal: true,
 			show: null,
@@ -56,8 +56,8 @@ $(document).ready(function() {
 	});
 	$('#pre-school-content').bind('click', function(e) {
 		$('#pre-school-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-School',
 			modal: true,
 			show: null,
@@ -70,8 +70,8 @@ $(document).ready(function() {
 	});
 	$('#pre-school-header').bind('click', function(e) {
 		$('#pre-school-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-School',
 			modal: true,
 			show: null,
@@ -85,8 +85,8 @@ $(document).ready(function() {
 
 	$('#pre-teen-footer').bind('click', function(e) {
 		$('#pre-teen-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-Teen',
 			modal: true,
 			show: null,
@@ -99,8 +99,8 @@ $(document).ready(function() {
 	});
 	$('#pre-teen-sidebar').bind('click', function(e) {
 		$('#pre-teen-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-Teen',
 			modal: true,
 			show: null,
@@ -113,8 +113,8 @@ $(document).ready(function() {
 	});
 	$('#pre-teen-content').bind('click', function(e) {
 		$('#pre-teen-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-Teen',
 			modal: true,
 			show: null,
@@ -127,8 +127,8 @@ $(document).ready(function() {
 	});
 	$('#pre-teen-header').bind('click', function(e) {
 		$('#pre-teen-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Pre-Teen',
 			modal: true,
 			show: null,
@@ -142,8 +142,8 @@ $(document).ready(function() {
 
 	$('#youth-footer').bind('click', function(e) {
 		$('#youth-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Youth Studies',
 			modal: true,
 			show: null,
@@ -156,8 +156,8 @@ $(document).ready(function() {
 	});
 	$('#youth-content').bind('click', function(e) {
 		$('#youth-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Youth Studies',
 			modal: true,
 			show: null,
@@ -170,8 +170,8 @@ $(document).ready(function() {
 	});
 	$('#youth-sidebar').bind('click', function(e) {
 		$('#youth-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Youth Studies',
 			modal: true,
 			show: null,
@@ -184,8 +184,8 @@ $(document).ready(function() {
 	});
 	$('#youth-header').bind('click', function(e) {
 		$('#youth-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Youth Studies',
 			modal: true,
 			show: null,
@@ -199,8 +199,8 @@ $(document).ready(function() {
 
 	$('#adult-footer').bind('click', function(e) {
 		$('#adult-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Adult Studies',
 			modal: true,
 			show: null,
@@ -213,8 +213,8 @@ $(document).ready(function() {
 	});
 	$('#adult-content').bind('click', function(e) {
 		$('#adult-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Adult Studies',
 			modal: true,
 			show: null,
@@ -227,8 +227,8 @@ $(document).ready(function() {
 	});
 	$('#adult-sidebar').bind('click', function(e) {
 		$('#adult-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Adult Studies',
 			modal: true,
 			show: null,
@@ -241,8 +241,8 @@ $(document).ready(function() {
 	});
 	$('#adult-header').bind('click', function(e) {
 		$('#adult-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Adult Studies',
 			modal: true,
 			show: null,
@@ -256,8 +256,8 @@ $(document).ready(function() {
 
 	$('#beliefs-footer').bind('click', function(e) {
 		$('#beliefs-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Beliefs',
 			modal: true,
 			show: null,
@@ -270,8 +270,8 @@ $(document).ready(function() {
 	});
 	$('#beliefs-sidebar').bind('click', function(e) {
 		$('#beliefs-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Beliefs',
 			modal: true,
 			show: null,
@@ -284,8 +284,8 @@ $(document).ready(function() {
 	});
 	$('#beliefs-content').bind('click', function(e) {
 		$('#beliefs-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Beliefs',
 			modal: true,
 			show: null,
@@ -298,8 +298,8 @@ $(document).ready(function() {
 	});
 	$('#beliefs-header').bind('click', function(e) {
 		$('#beliefs-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Beliefs',
 			modal: true,
 			show: null,
@@ -313,8 +313,8 @@ $(document).ready(function() {
 
 	$('#pastor-footer').bind('click', function(e) {
 		$('#pastor-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Pastor',
 			modal: true,
 			show: null,
@@ -327,8 +327,8 @@ $(document).ready(function() {
 	});
 	$('#pastor-sidebar').bind('click', function(e) {
 		$('#pastor-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Pastor',
 			modal: true,
 			show: null,
@@ -341,8 +341,8 @@ $(document).ready(function() {
 	});
 	$('#pastor-content').bind('click', function(e) {
 		$('#pastor-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Pastor',
 			modal: true,
 			show: null,
@@ -355,8 +355,8 @@ $(document).ready(function() {
 	});
 	$('#pastor-header').bind('click', function(e) {
 		$('#pastor-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our Pastor',
 			modal: true,
 			show: null,
@@ -370,8 +370,8 @@ $(document).ready(function() {
 
 	$('#staff-footer').bind('click', function(e) {
 		$('#staff-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our staff',
 			modal: true,
 			show: null,
@@ -384,8 +384,8 @@ $(document).ready(function() {
 	});
 	$('#staff-sidebar').bind('click', function(e) {
 		$('#staff-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our staff',
 			modal: true,
 			show: null,
@@ -398,8 +398,8 @@ $(document).ready(function() {
 	});
 	$('#staff-content').bind('click', function(e) {
 		$('#staff-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our staff',
 			modal: true,
 			show: null,
@@ -412,8 +412,8 @@ $(document).ready(function() {
 	});
 	$('#staff-header').bind('click', function(e) {
 		$('#staff-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Our staff',
 			modal: true,
 			show: null,
@@ -427,8 +427,8 @@ $(document).ready(function() {
 
 	$('#contact-footer').bind('click', function(e) {
 		$('#contact-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Contact Us',
 			modal: true,
 			show: null,
@@ -441,8 +441,8 @@ $(document).ready(function() {
 	});
 	$('#contact-sidebar').bind('click', function(e) {
 		$('#contact-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Contact Us',
 			modal: true,
 			show: null,
@@ -455,8 +455,8 @@ $(document).ready(function() {
 	});
 	$('#contact-content').bind('click', function(e) {
 		$('#contact-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Contact Us',
 			modal: true,
 			show: null,
@@ -469,8 +469,8 @@ $(document).ready(function() {
 	});
 	$('#contact-header').bind('click', function(e) {
 		$('#contact-info').dialog({
-			width: 620,
-			height: 480,
+			width: 800,
+			height: 600,
 			title: 'Contact Us',
 			modal: true,
 			show: null,
