@@ -8,4 +8,5 @@
 		echo $this->element('education/proverbs', array('verse' => '22_6'));
 		echo $content;
 	?>
+	</div>
 </div>
