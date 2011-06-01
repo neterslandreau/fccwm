@@ -16,7 +16,7 @@
 		<?php
 			echo $this->Html->link('News',
 				array(
-					'controller' => 'news'
+					'controller' => 'news', 'action' => 'index',
 				), 
 				array(
 				'title' => 'First Christian Church of Wilton Manors News and Events',
@@ -28,7 +28,7 @@
 		<?php
 			echo $this->Html->link('Education',
 				array(
-					'controller' => 'educations',
+					'controller' => 'educations', 'action' => 'index',
 				),
 				array(
 					'title' => 'First Christian Church of Wilton Manors Educational Programs',
@@ -40,7 +40,7 @@
 		<?php
 			echo $this->Html->link('Messages',
 				array(
-					'controller' => 'news',
+					'controller' => 'messages', 'action' => 'index',
 				),
 				array(
 				'title' => 'First Christian Church of Wilton Manors Teachings',
@@ -52,7 +52,7 @@
 		<?php
 			echo $this->Html->link('Ministries',
 				array(
-					'controller' => 'ministries',
+					'controller' => 'ministries', 'action' => 'index',
 				), 
 				array(
 					'title' => 'First Christian Church of Wilton Manors Ministries',
@@ -64,7 +64,7 @@
 		<?php
 			echo $this->Html->link('About Us',
 				array(
-					'controller' => 'abouts',
+					'controller' => 'abouts', 'action' => 'index',
 				),
 				array(
 					'title' => 'About First Christian Church of Wilton Manors and what we believe',
