@@ -8,9 +8,6 @@ $(document).ready(function() {
 			show: null,
 			buttons: {
 				'Donate': function() {
-					$(':input', '#DonationAddForm').each(function(){
-						console.log(this.name + ': ' + this.value);
-					});
 					$(this).dialog("close");
 				}
 			}
@@ -447,6 +444,9 @@ $(document).ready(function() {
 			modal: true,
 			show: null,
 			buttons: {
+				'Cancel': function() {
+					$(this).dialog("close");
+				},
 				'Submit': function() {
 					$(this).dialog("close");
 				}
@@ -461,6 +461,9 @@ $(document).ready(function() {
 			modal: true,
 			show: null,
 			buttons: {
+				'Cancel': function() {
+					$(this).dialog("close");
+				},
 				'Submit': function() {
 					$(this).dialog("close");
 				}
@@ -475,6 +478,9 @@ $(document).ready(function() {
 			modal: true,
 			show: null,
 			buttons: {
+				'Cancel': function() {
+					$(this).dialog("close");
+				},
 				'Submit': function() {
 					$(this).dialog("close");
 				}
@@ -497,3 +503,10 @@ function mycarousel_initCallback(carousel) {
         carousel.startAuto();
     });
 };
+
+function process_donation() {
+	$(':input', '#DonationAddForm').each(function(){
+		console.log(this.name + ': ' + this.value);
+	});
+
+}
