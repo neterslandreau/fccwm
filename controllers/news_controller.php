@@ -4,7 +4,8 @@ class NewsController extends AppController {
 	public $uses = null;
 	
 	public function beforeFilter() {
-		$this->Auth->allow('*');
+		parent::beforeFilter();
+		$this->Auth->allow('google_calendar', 'index');
 	}
 	public function index() {
 		
