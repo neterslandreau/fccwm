@@ -8,6 +8,7 @@ $(document).ready(function() {
 			show: null,
 			buttons: {
 				'Donate': function() {
+//					process_donation();
 					$(this).dialog("close");
 				}
 			}
@@ -505,8 +506,25 @@ function mycarousel_initCallback(carousel) {
 };
 
 function process_donation() {
-	$(':input', '#DonationAddForm').each(function(){
-		console.log(this.name + ': ' + this.value);
-	});
+//	$.post(
+//		'/donations/donate',
+//		$('#DonationAddForm').serialize(),
+//		function(results) {
+//			console.log(data);
+//		},
+//		'json'
+//	);
+    $('#DonationAddForm').ajaxForm({
+        // dataType identifies the expected content type of the server response
+        dataType:  'json',
 
+        // success identifies the function to invoke when the server response
+
+        success:   processJson
+    });
+
+}
+
+function processJson(data) {
+	console.log('data');
 }

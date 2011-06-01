@@ -18,9 +18,11 @@
 			'carousel/fccwm/skin',
 			'fccwm'
 		));
+		echo $this->Html->script('http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js');
 		echo $this->Html->script('http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js');
 		echo $this->Html->script('jquery.jcarousel.min.js');
 		echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js');
+		echo $this->Html->script('jquery.form');
 		echo $this->Html->script('views/layouts/default.js');
 		echo $scripts_for_layout;
 	?>
