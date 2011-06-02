@@ -40,8 +40,16 @@
 			<h1>
 				<?php echo $this->Html->link('News', array('controller' => 'news')); ?>
 			</h1>
-			<?php echo $this->Html->link('Calendar', array('controller' => 'news', 'action' => 'google_calendar')); ?>
-			<a href="#">link b2</a>
+			<?php
+				echo $this->Html->link('Calendar', array('controller' => 'news', 'action' => 'google_calendar'));
+				echo $this->Html->link('Newsletter',
+						array('controller' => 'news', 'action' => 'newsletter'),
+						array(
+							'id' => 'newsletter-footer',
+							'onclick' => 'return false;',
+						)
+					);
+			?>
 			<a href="#">link b3</a>
 			<a href="#">link b4</a>
 		</div>

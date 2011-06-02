@@ -488,6 +488,34 @@ $(document).ready(function() {
 			}
 		});
 	});
+	$('#newsletter-footer').bind('click', function(e) {
+		$('#nl-form-container').dialog({
+			width: 800,
+			height: 600,
+			title: 'Receive Our Newsletter',
+			modal: true,
+			show: null,
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
+	$('#newsletter-sidebar').bind('click', function(e) {
+		$('#nl-form-container').dialog({
+			width: 800,
+			height: 600,
+			title: 'Receive Our Newsletter',
+			modal: true,
+			show: null,
+			buttons: {
+				'Close': function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+	});
 });
 
 function mycarousel_initCallback(carousel) {
@@ -516,15 +544,15 @@ function process_donation() {
 //	);
     $('#DonationAddForm').ajaxForm({
         // dataType identifies the expected content type of the server response
-        dataType:  'json',
+        dataType: 'json',
 
         // success identifies the function to invoke when the server response
 
-        success:   processJson
+        success: processJson
     });
 
 }
 
 function processJson(data) {
-	console.log('data');
+	console.log('data.message');
 }

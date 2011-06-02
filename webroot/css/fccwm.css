@@ -257,3 +257,38 @@ table td.actions a {
 	padding: 0px 3px 0px 3px;
 	margin: 0px 0px 0px 5px;
 }
+/*
+mailing list form styles
+*/
+.mc-field-group label {
+	display: block;
+}
+.note-required, .indicate-required, .mce_inline_error {
+	color: #b60000;
+}
+.indicate-required {
+	text-align: right;
+}
+.phonefield input {
+	float: left;
+}
+.phonearea label, .phonedetail1 label, .phonedetail2 label {
+	display: inline;
+}
+.mc-field-submit input {
+	display: block;
+	text-align: left;
+}
+.telephone div.input {
+	float: left;
+}
+.response {
+	font-weight: bold;
+	font-size: 10px;
+}
+#mce-success-response {
+	color: #0a0;
+}
+#mce-error-response {
+	color: #b60000;
+}

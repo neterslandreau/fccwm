@@ -31,6 +31,14 @@
 				);
 	} elseif ($this->params['controller'] == 'news') {
 		echo $this->Html->link('Calendar', array('action' => 'google_calendar'));
+		echo $this->Html->link(__('Newsletter', true),
+				array('action' => 'newsletter'),
+				array(
+					'escape' => false,
+					'onclick' => 'return false;',
+					'id' => 'newsletter-sidebar',
+				)
+			);
 //	} elseif ($this->params['plugin'] == 'full_calendar') {
 //		echo '<div class="actions"><ul>';
 //		echo $this->Html->link('<li>' . __('New Event', true) . '</li>',

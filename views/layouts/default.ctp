@@ -90,12 +90,18 @@
 ?>
 <div id="donate-form" style="display:none;">
 	<?php
-		echo $this->Form->create('Donation', array('action' => 'add'));
+		echo $this->Form->create('Donation', array('action' => 'donate'));
 		echo $this->Form->input('firstname');
 		echo $this->Form->input('lastname');
 		echo $this->Form->input('address1');
 		echo $this->Form->input('address2');
+		echo $this->Form->submit();
 		echo $this->Form->end();
+	?>
+</div>
+<div id="nl-form-container" style="display: none;">
+	<?php
+		echo $this->element('dialogs/abouts/newsletter_container');
 	?>
 </div>
 <?php

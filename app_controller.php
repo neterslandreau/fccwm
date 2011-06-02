@@ -4,7 +4,8 @@ class AppController extends Controller {
 		'Session',
 		'Auth',
 		'Cookie',
-		'Email'
+		'Email',
+		'RequestHandler'
 	);
 	public $helpers = array(
 		'Session',
