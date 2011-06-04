@@ -267,7 +267,7 @@ mailing list form styles
 	color: #b60000;
 }
 .indicate-required {
-	text-align: right;
+	text-align: left;
 }
 .phonefield input {
 	float: left;
@@ -291,4 +291,13 @@ mailing list form styles
 }
 #mce-error-response {
 	color: #b60000;
+}
+.nl_form {
+	width: 45%;
+	float: left;
+}
+.nl_info {
+	width: 45%;
+	float: left;
+	padding: 0px 0px 0px 10px;
 }

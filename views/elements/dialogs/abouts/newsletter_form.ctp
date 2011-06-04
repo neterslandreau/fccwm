@@ -8,7 +8,7 @@
 	));
 ?>
 	<fieldset>
-		<div class="indicate-required">* indicates required field</div>
+	<div class="indicate-required">* indicates required field</div>
 		<div class="mc-field-group">
 		<?php
 			echo $this->Form->input('EMAIL', array(

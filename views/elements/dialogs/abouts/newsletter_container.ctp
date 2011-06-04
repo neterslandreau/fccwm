@@ -1,54 +1,22 @@
-<!-- Begin MailChimp Signup Form -->
+<?php
+	$nl_info = '<h1 class="centered">Our Newsletter</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum, massa bibendum cursus sodales, lacus est rutrum nulla, vel hendrerit odio libero nec massa. Nam aliquam convallis mauris, sed ultrices erat faucibus non. Ut vitae mauris tortor. In id cursus tellus. Sed feugiat odio sit amet dui facilisis varius. Phasellus interdum scelerisque neque. Morbi vestibulum facilisis neque, tempor dictum velit pulvinar vitae. Vestibulum purus velit, malesuada vel faucibus vitae, placerat id tellus. Pellentesque eget enim eu purus fringilla pharetra. Duis elementum sagittis urna, quis vehicula nunc mattis sit amet. Donec vel metus ante. Sed convallis varius imperdiet.</p>';
+?>
 <script type="text/javascript">
 // delete this script tag and use a "div.mce_inline_error{ XXX !important}" selector
 // or fill this in and it will be inlined when errors are generated
 var mc_custom_error_style = '';
 </script>
+<div class="nl_form">
 <div id="mc_embed_signup">
 	<?php
 		echo $this->element('dialogs/abouts/newsletter_form');
 	?>
-<!--
-<form action="http://fccwm.us2.list-manage.com/subscribe/post?u=66f03ba43600ea2123fefe17f&amp;id=7471cd7a54" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-	<fieldset>
-		<div class="indicate-required">* indicates required</div>
-		<div class="mc-field-group">
-			<label for="mce-EMAIL">Email Address<strong class="note-required">*</strong></label>
-			<input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
-		</div>
-		<div class="mc-field-group">
-			<label for="mce-FNAME">First Name</label>
-			<input type="text" value="" name="FNAME" class="" id="mce-FNAME" />
-		</div>
-		<div class="mc-field-group">
-			<label for="mce-LNAME">Last Name</label>
-			<input type="text" value="" name="LNAME" class="" id="mce-LNAME" />
-		</div>
-		<div class="mc-field-group">
-			<div class="phonefield">
-				<label for="mce-PHONE">Telephone</label>
-				<span class="phonearea">
-					<input id="mce-PHONE-area" name="PHONE[area]" maxlength="3" size="3" value="" type="text" />
-				</span>-
-				<span class="phonedetail1">
-					<input id="mce-PHONE-detail1" name="PHONE[detail1]" maxlength="3" size="3" value="" type="text" />
-				</span>
-				<span class="phonedetail2">
-					<input id="mce-PHONE-detail2" name="PHONE[detail2]" maxlength="4" size="4" value="" type="text" />
-				</span>
-			</div>
-		</div>
-		<div id="mce-responses">
-			<div class="response" id="mce-error-response" style="display:none"></div>
-			<div class="response" id="mce-success-response" style="display:none"></div>
-		</div>
-		<div>
-			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" />
-		</div>
-	</fieldset>	
-</form>
--->
 </div>
+</div>
+<div class="nl_info">
+	<?php echo $nl_info; ?>
+</div>
+
 <script type="text/javascript">
 var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='PHONE';ftypes[3]='phone';
 try {
