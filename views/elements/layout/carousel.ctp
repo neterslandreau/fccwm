@@ -4,7 +4,7 @@
 		<?php
 			$pic = 'carousel/carousel' . $x . '.png';
 			echo $this->Html->link(
-				$this->Html->image($pic, array('width' => 375, 'height' => 140)),
+				$this->Html->image($pic, array('width' => 400, 'height' => 140)),
 				'#',
 				array(
 					'escape' => false,
@@ -14,33 +14,4 @@
 		?>
 	</li>
 	<?php endfor; ?>
-<!--
-	<li>
-		<img src="/img/carousel/carousel2.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel3.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel4.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel5.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel6.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel7.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel8.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel9.png" width="220" height="140" alt="" />
-	</li>
-	<li>
-		<img src="/img/carousel/carousel10.png" width="220" height="140" alt="" />
-	</li>
-	-->
 </ul>
