@@ -267,7 +267,8 @@ mailing list form styles
 	color: #b60000;
 }
 .indicate-required {
-	text-align: left;
+	text-align: right;
+	padding: 0px 30px 0px 0px;
 }
 .phonefield input {
 	float: left;
@@ -299,5 +300,5 @@ mailing list form styles
 .nl_info {
 	width: 45%;
 	float: left;
-	padding: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 30px;
 }
