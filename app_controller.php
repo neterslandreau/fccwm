@@ -33,7 +33,7 @@ class AppController extends Controller {
 	public function beforeFilter() {
 		$prefixes = Configure::read('Routing.prefixes');
 		$admin = in_array('admin', $prefixes);
-		$this->Auth->loginAction = array('plugin' => 'users', 'controller' => 'users', 'action' => 'login', 'admin' => false);
+		$this->Auth->loginAction = array('plugin' => null, 'controller' => 'app_users', 'action' => 'login', 'admin' => false);
 //		$this->Auth->loginAction = '/users/login';
 		$this->Auth->logoutRedirect = '/';
 		$this->Auth->loginError = __('Invalid username / password combination.  Please try again', true);
