@@ -5,7 +5,8 @@ class AppController extends Controller {
 		'Auth',
 		'Cookie',
 		'Email',
-		'RequestHandler'
+		'RequestHandler',
+		'Search.Prg'
 	);
 	public $helpers = array(
 		'Session',
@@ -32,21 +33,24 @@ class AppController extends Controller {
 	public function beforeFilter() {
 		$prefixes = Configure::read('Routing.prefixes');
 		$admin = in_array('admin', $prefixes);
-		$this->Auth->loginAction = array('controller' => 'users', 'action' => 'login', 'prefix' => $admin, $admin => false, 'plugin' => null);
+		$this->Auth->loginAction = array('plugin' => 'users', 'controller' => 'users', 'action' => 'login', 'admin' => false);
+//		$this->Auth->loginAction = '/users/login';
 		$this->Auth->logoutRedirect = '/';
 		$this->Auth->loginError = __('Invalid username / password combination.  Please try again', true);
 		$this->Auth->autoRedirect = false;
+		$this->Auth->authorize = 'controller';
+		$this->Auth->fields = array('username' => 'email', 'password' => 'passwd');
 
 		$this->Cookie->name = 'fccwmRememberMe';
 		$this->Cookie->time = '1 Month';
 		$cookie = $this->Cookie->read('User');
 
 		if (!empty($cookie) && !$this->Auth->user()) {
-			$data['User']['username'] = '';
-			$data['User']['password'] = '';
+			$data['User']['email'] = '';
+			$data['User']['passwd'] = '';
 			if (is_array($cookie)) {
-				$data['User']['username'] = $cookie['username'];
-				$data['User']['password'] = $cookie['password'];
+				$data['User']['email'] = $cookie['email'];
+				$data['User']['passwd'] = $cookie['passwd'];
 			}
 			if (!$this->Auth->login($data)) {
 				$this->Cookie->destroy();
@@ -60,6 +64,13 @@ class AppController extends Controller {
 		if (in_array(strtolower($this->params['controller']), $this->publicControllers)) {
             $this->Auth->allow('*');
         }
+	}
+
+	public function isAuthorized() {
+		if ($this->Auth->user()) {
+			return true;
+		}
+		return false;
 	}
 
 }
