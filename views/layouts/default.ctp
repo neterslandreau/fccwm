@@ -120,5 +120,6 @@
 	echo $this->element('dialogs/abouts/staff_info');
 	echo $this->element('dialogs/abouts/contact_info');
 ?>
+<?php echo $this->Js->writeBuffer(); ?>
 </body>
 </html>
