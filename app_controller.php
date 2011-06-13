@@ -67,7 +67,7 @@ class AppController extends Controller {
 	}
 
 	public function isAuthorized() {
-		if ($this->Auth->user()) {
+		if ($this->Auth->user() && $this->params['prefix'] != 'admin') {
 			return true;
 		}
 		return false;

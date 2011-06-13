@@ -302,3 +302,18 @@ mailing list form styles
 	float: left;
 	padding: 0px 0px 0px 30px;
 }
+#authMessage {
+	background: #c73e14;
+}
+#flashMessage {
+	background: #ff3e14;
+}
+div.message {
+	clear: both;
+/*	color: #fff;*/
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+/*	background: #c73e14;*/
+	padding: 0px 5px 0px 5px;
+}
